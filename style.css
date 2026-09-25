@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.82rem;
+    font-family: "Google Sans", sans-serif;
+}
+
+.container {
+    padding: 1rem;
+    width: 100%;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.mt-1 {
+    margin-top: .8rem;
+}
+
+.navbar,
+.description,
+.education,
+.experience,
+.projects,
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 640px) {
+
+    /* large phones/ phone landscape/ small tablets */
+    .container {
+        width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    /* tablets - portrait */
+
+    .container {
+        width: 768px;
+    }
+
+    .masters,
+    .bachelors,
+    .experience-head {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* tablet - landscape/ small laptops */
+    .container {
+        width: 1024px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+
+    /* standard laptops/ desktops */
+    .container {
+        width: 1280px;
+    }
+}
+
+@media (min-width: 1536px) {
+
+    /* large desktops/ wide monitors */
+    .container {
+        width: 1536px;
+    }
+}
